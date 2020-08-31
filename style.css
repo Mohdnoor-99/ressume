@@ -1,0 +1,96 @@
+body{
+ background-color:#000;
+ font-family: sans-serif;
+ font-weight: strong;
+ font-size:30px;
+ padding:0px;
+}
+h1,h2,h3,h4,h5{
+ color:#f09ae9;
+}
+
+p,li{
+ color:#145374;
+}
+
+
+
+/*****top******""""*/
+.top-link,.achievement,.information{
+ background-color:#b2ebf2;
+ padding:30px;
+}
+.profile-image{
+  display:block;
+  position:relative;
+  bottom:20px;
+  Margin-top:10%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:100%;
+}
+/*******education*****""""*/
+#Middle{
+ padding:30px 20px;
+ background-color:#8d93ab;
+ display:block;
+}
+.carousel-item{
+ padding:10% 23%;
+}
+.card{
+  padding:1px auto auto 0;
+  margin-bottom:10px;
+}
+/**achievements******/
+.achievement{
+  padding:50px 20px;
+  margin:0;
+  text-align:left;
+  line-height:50px;
+  color:#318fb5;
+}
+/******bottom**********/
+#bottom{
+  background-color:#000;
+  text-align:center;
+  padding:30px;
+  color:#fff;
+}
+.bottom-link{
+ display:inline-block;
+ padding:30px;
+ font-size:50px;
+}
+.copyright{
+ font-size:30px;
+ color:white;
+}
+/***†*******footer-link*****"***†*******/
+#footer{
+ position: absolute;
+ top:25%;
+ right:5%;
+ transform:translateY(-50%);
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ flex-direction: column;
+}
+
+.footer{
+ list-style:none;
+}
+.footer-link{
+  display:inline-block;
+  filter:invert(1);
+  margin:5px 0;
+  transform: scale (0,6);
+  color:#b2ebf2;
+}
+
+/*********information*********/
+.information{
+ color:#fff;
+ padding:30px 10px;
+}
